@@ -25,6 +25,21 @@ public final class Add {
 		System.out.println("finally block");
 		}
 	}
+	public void m3() {
+		
+		int x=100;
+		int y=0;
+		try {
+		 System.out.println(x/y);
+		 System.out.println("inside try");
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+		System.out.println("finally block");
+		}
+	}
 	
 	
 	public void addTwo(int x, int y) {
