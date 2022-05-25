@@ -10,6 +10,21 @@ public final class Add {
 //	}
 	int x;
 	int y;
+	public void m7() {
+		
+		int x=100;
+		int y=0;
+		try {
+		 System.out.println(x/y);
+		 System.out.println("inside try");
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+		System.out.println("finally block");
+		}
+	}
 	public void m5() {
 		
 		int x=100;
